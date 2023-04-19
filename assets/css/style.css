@@ -84,21 +84,21 @@ span{
         font-size: 50px;
     }
     img{
-        margin-top: -35px;
+        margin-top: -10px;
     }
     .dots{
         margin-left: 400px;
     }
 }
 
-@media (max-width:728px){
+@media (max-width:780px){
     h1{
         margin-top: 120px;
         font-size: 45px;
         margin-left: 200px;
     }
     img{
-        margin-top: 10px;
+        margin-top: 34px;
     }
     .dots{
         margin-top: 20px;
@@ -111,21 +111,21 @@ span{
         font-size: 30px;
     }
     img{
-        margin-top: 44px;
+        margin-top: 71px;
     }
 }
 
 @media (max-width:677px){
     img{
         width: 600px;
-        margin-top: 195px;
+        margin-top: 220px;
     }
 }
 
 @media (max-width:598px){
     img{
     width: 500px;
-    margin-top: 175px;
+    margin-top: 200px;
 }
 h1{
     margin-top: 200px;
@@ -138,7 +138,7 @@ h1{
 
 @media (max-width:533px){
     img{
-        margin-top: 134px;
+        margin-top: 158px;
     }
 }
 
@@ -148,13 +148,13 @@ h1{
     }
 
     img{
-        margin-top: 176px;
+        margin-top: 200px;
     }
 }
 
-@media (max-width:491px){
+@media (max-width:493px){
     img{
         width: 400px;
-        margin-top: 209px;
+        margin-top: 232px;
     }
 }
