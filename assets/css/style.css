@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 800px;
+    margin-top: 42px;
+    float: right;
+}
+
+.dots{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: -20px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+span{
+    color: red;
+}
+
+.sec{
+    color: blue;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4b9cdb;
+  }
+  
+  
+.dot:nth-last-child(1) {
+    animation: jumpingAnimation 1.2s 0.6s linear infinite;
+  }
+.dot:nth-last-child(2) {
+    animation: jumpingAnimation 1.2s 0.3s linear infinite;
+  }
+.dot:nth-last-child(3) {
+    animation: jumpingAnimation 1.2s 0s linear infinite;
+  }
+  
+  @keyframes jumpingAnimation {
+    0 {
+      transform: translate(0, 0);
+    }
+    16% {
+      transform: translate(0, -15px);
+    }
+    33% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+
+@media (max-width:1629px){
+    img{
+        margin-top: -45px;
+    }
+}
+
+@media (max-width:896px){
+    img{
+    margin-top: -114px;
+    }
+}
+
+@media (max-width:833px){
+    h1{
+        font-size: 50px;
+    }
+    img{
+        margin-top: -35px;
+    }
+    .dots{
+        margin-left: 400px;
+    }
+}
+
+@media (max-width:728px){
+    h1{
+        margin-top: 120px;
+        font-size: 45px;
+        margin-left: 200px;
+    }
+    img{
+        margin-top: 10px;
+    }
+    .dots{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:683px){
+    h1{
+        font-size: 30px;
+    }
+    img{
+        margin-top: 44px;
+    }
+}
+
+@media (max-width:677px){
+    img{
+        width: 600px;
+        margin-top: 195px;
+    }
+}
+
+@media (max-width:598px){
+    img{
+    width: 500px;
+    margin-top: 175px;
+}
+h1{
+    margin-top: 200px;
+    font-size: 36px;
+}
+.main{
+    margin-left: -50px;
+}
+}
+
+@media (max-width:533px){
+    img{
+        margin-top: 134px;
+    }
+}
+
+@media (max-width:500px){
+    h1{
+        margin-left: 160px;
+    }
+
+    img{
+        margin-top: 176px;
+    }
+}
+
+@media (max-width:491px){
+    img{
+        width: 400px;
+        margin-top: 209px;
+    }
+}
